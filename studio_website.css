@@ -1,0 +1,497 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media all and (max-width:768px) {
+    ul {
+        background-color: white;
+        text-align: center;
+        width: 200px;
+
+
+    }
+    .navbar-nav li a {
+        color: grey !important;
+
+
+    }
+    .navbar-nav li a:hover {
+        color: #28c8c6 !important;
+
+    }
+
+    #melbourne {
+        text-align: center;
+
+    }
+
+    #logo_gros {
+        display: none;
+    }
+    #pp {
+        text-align: center;
+    }
+    #join img {
+        display: none;
+
+    }
+    #melbourne {
+        text-align: center;
+    }
+
+}
+
+/* TABLETTES */
+
+@media all and (max-width:991px) {
+    #big-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    #DESIGN {
+
+        border-right: solid 1px #28c8c6;
+
+    }
+
+    #DEVELOPMENT {
+        border-top: solid 1px #28c8c6;
+        border-right: solid 1px #28c8c6;
+
+
+    }
+
+    #BUSINESS {
+        border-left: solid 1px #28c8c6;
+        border-right: solid 1px #28c8c6;
+
+    }
+
+    #ART {
+        border-right: solid 1px #28c8c6;
+    }
+
+
+}
+
+/* max 576px */
+
+@media all and (max-width:576px) {
+    #bouton {
+        margin-left: 17px;
+    }
+    #selection {
+        margin-left: 15px;
+    }
+    .taille {
+        width: 250px;
+    }
+    #iphone {
+        text-align: center;
+    }
+    .choix {
+        padding: 0px;
+    }
+    
+     #push {
+    margin-top: 150px;
+    line-height: 53px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+
+    #DESIGN {
+
+        border-left: solid 1px #28c8c6;
+        border-radius: 20px;
+
+    }
+
+    #DEVELOPMENT {
+        border-right: solid 1px #28c8c6;
+        border-radius: 20px;
+
+    }
+
+    #BUSINESS {
+        border-right: solid 1px #28c8c6;
+        border-radius: 20px;
+    }
+
+    #ART {
+        border-left: solid 1px #28c8c6;
+        border-radius: 20px;
+    }
+
+    #yourself {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 53px;
+
+}
+}
+
+
+@media all and (min-width:768px) {
+    .navbar-nav li a {
+        color: white !important;
+
+    }
+     a:hover {
+        border-bottom: 2px solid #28c8c6;
+        padding-bottom: 5px;
+    }
+
+    #join a:hover {
+        border-bottom: none;
+    }
+
+    #join {
+        background-color: #a100ff;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+    }
+
+    #join img {
+        margin-bottom: 3px;
+        margin-left: 6px
+    }
+
+    #join:hover {
+        background-color: #28c8c6;
+        
+    }
+        #melbourne{
+        text-align: right;
+    }
+   
+}
+
+@media all and (min-width:576px){
+     #push {
+    margin-top: 150px;
+    line-height: 53px;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+    
+    #yourself {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 53px;
+
+}
+    
+}
+.container{
+    overflow: hidden;
+}
+
+header {
+    background: url(images/lyer1.jpg) center no-repeat;
+    background-size: cover;
+    height: 918px;
+    width: auto;
+
+}
+
+form {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.btn-circle {
+    background-color: #28c6c4;
+}
+
+.btn-primary {
+    border : none;
+}
+
+.p {
+    color: white;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.choix {
+    line-height: 0px;
+    margin: 0px;
+    width: 345px
+}
+
+#section1 {
+    background-color: #f5f7f9;
+    height: 2100px;
+
+}
+
+#bloc_scroll {
+    height: 750px;
+    background-color: white;
+
+
+
+}
+
+#design {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px
+}
+
+.lorem {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+#iphone {
+    margin-top: 160px;
+    text-align: center;
+
+}
+
+
+.no_bottom {
+    height: 100px;
+
+}
+
+.rond {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 150px;
+
+}
+
+.gris {
+    background-color: #f5f7f9;
+}
+
+.icone {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+.design2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em
+}
+
+#ART {
+    border-top: solid 1px #28c8c6;
+    border-bottom: solid 1px #28c8c6;
+    border-right: solid 1px #28c8c6;
+
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#ART:hover {
+    background-color: #28c8c6;
+}
+
+#BUSINESS {
+    border-top: solid 1px #28c8c6;
+    border-bottom: solid 1px #28c8c6;
+
+
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#BUSINESS:hover {
+    background-color: #28c8c6;
+
+
+}
+
+#DESIGN {
+    border-top: solid 1px #28c8c6;
+    border-bottom: solid 1px #28c8c6;
+
+
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#DESIGN:hover {
+    background-color: #28c8c6;
+
+}
+
+#DEVELOPMENT {
+    border-top: solid 1px #28c8c6;
+    border-bottom: solid 1px #28c8c6;
+    border-left: solid 1px #28c8c6;
+
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#DEVELOPMENT:hover {
+    background-color: #28c8c6;
+}
+
+.border {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.one {
+    height: auto;
+    width: 300px;
+}
+
+#container-gris {
+    padding-bottom: 80px
+}
+
+#lyer4 {
+    background: url('images/lyer4.jpg') center no-repeat;
+    background-size: cover;
+    height: 890px;
+    width: auto;
+}
+
+#liste_amis ul li {
+    padding: 5px
+}
+
+.footer {
+    margin-top: 250px;
+}
+
+#mac {
+    width: 50%;
+    margin-left: 40%;
+    margin-top: -30%;
+}
+
+
+#hover a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#hover a {
+    text-decoration: none;
+    color: black;
+}
+
+.hover2 a:hover {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hover2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.relativ{
+    position: relative;
+}
+.separateur {
+    position: absolute;
+    height: 60px;
+    width: 120px;   
+    background-color: #f5f7f9;
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 100px; 
+    bottom: 0;
+}
+
+.separateur2 {
+    position: absolute;
+    height: 60px;
+    width: 120px;   
+    background-color: #28c8c6;
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 100px; 
+    top: 0;
+    transform: scaleY(-1);
+}
+
+.separateur3 {
+    position: absolute;
+    height: 60px;
+    width: 120px;   
+    background-color: white;
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 100px; 
+    top: 0;
+    transform: scaleY(-1);
+}
+
+.separateur3 img{
+    transform: scaleY(-1);
+}
+
+#twitter{
+    background-color: #69b6f2;
+    width: 130px;
+}
+
+#facebook{
+    background-color: #3a579a;            
+    width: 130px;
+}
+
+#facebook:hover {
+    background-color: #4561a3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border : none;
+    text-decoration: none;
+}
+
+ .under a:hover{
+    background-color: #28c8c6
+}
+
+.fa {
+    color : white;
+}
+
+#bouton {
+    background-color: #28c8c6
+}
